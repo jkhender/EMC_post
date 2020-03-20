@@ -83,9 +83,9 @@ else
   export fhr3=`expr $FH + 0 `
   if [ $fhr3 -lt 100 ]; then export fhr3="0$fhr3"; fi
   if [ $fhr3 -lt 10 ];  then export fhr3="0$fhr3"; fi
-  if [ $fhr3%${FHOUT_PGB} -eq 0 ]; then
-     export PGBS=YES
-  fi
+#JKH  if [ $fhr3%${FHOUT_PGB} -eq 0 ]; then
+#JKH     export PGBS=YES
+#JKH  fi
 fi
 
 
